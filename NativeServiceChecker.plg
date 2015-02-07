@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NativeServiceChecker - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPC7F1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/NativeServiceChecker.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VC\NativeServiceChecker - vertion 3\NativeServiceCheckerDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPC7F1.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPC7F2.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/NativeServiceChecker.pdb" /debug /machine:I386 /out:"Debug/NativeServiceChecker.exe" /pdbtype:sept 
+".\Debug\CreateServiceDlg.obj"
+".\Debug\NativeServiceChecker.obj"
+".\Debug\NativeServiceCheckerDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\NativeServiceChecker.res"
+".\Debug\RestoreService.obj"
+".\Debug\NativeService.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPC7F2.tmp"
+<h3>Output Window</h3>
+Compiling...
+NativeServiceCheckerDlg.cpp
+D:\VC\NativeServiceChecker - vertion 3\NativeServiceCheckerDlg.cpp(290) : warning C4715: 'EnableProvi' : not all control paths return a value
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/NativeServiceChecker.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\CreateServiceDlg.sbr" ".\Debug\NativeServiceChecker.sbr" ".\Debug\NativeServiceCheckerDlg.sbr" ".\Debug\RestoreService.sbr" ".\Debug\NativeService.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+NativeServiceChecker.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
